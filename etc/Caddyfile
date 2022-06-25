@@ -23,7 +23,7 @@ basicauth /$AUUID/* {
 @websocket_xray_vmess {
 header Connection *Upgrade*
 header Upgrade    websocket
-path /$AUUID-vmess
+path /daochen6
 }
 reverse_proxy @websocket_xray_vmess unix//etc/caddy/vmess
 
@@ -31,7 +31,7 @@ reverse_proxy @websocket_xray_vmess unix//etc/caddy/vmess
 @websocket_xray_vless {
 header Connection *Upgrade*
 header Upgrade    websocket
-path /$AUUID-vless
+path /daochen6
 }
 reverse_proxy @websocket_xray_vless unix//etc/caddy/vless
 

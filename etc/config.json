@@ -18,7 +18,7 @@
                 "network": "ws",
                 "allowInsecure": false,
                 "wsSettings": {
-                  "path": "/$AUUID-vmess"
+                  "path": "/daochen6"
                 }
             },
             "sniffing": {
